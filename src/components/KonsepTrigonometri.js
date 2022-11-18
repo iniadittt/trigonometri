@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 export default function KonsepTrigonometri() {
   const [imageTrigonometri, setImageTrigonometri] = useState('./konsep-trigonometri.png')

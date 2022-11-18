@@ -1,5 +1,4 @@
 import React from 'react'
-import AnswerSinus from './AnswerSinus'
 
 export default function ContohSoal({ props }) {
   return (
