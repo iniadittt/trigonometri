@@ -50,6 +50,7 @@ export default function AnswerCosinus() {
             delta: '𝛿',
             teta: '𝜃',
             phi: '𝜋',
+            derajat: '°'
         })
     },[])
 
@@ -72,6 +73,7 @@ export default function AnswerCosinus() {
                     <button className='lg:bg-gray-100 lg:px-2 lg:py-1 lg:rounded-md lg:font-poppins lg:font-medium lg:text-base' onClick={e => handlerSimbol(e)} value={simbol.delta}>{simbol.delta}</button>
                     <button className='lg:bg-gray-100 lg:px-2 lg:py-1 lg:rounded-md lg:font-poppins lg:font-medium lg:text-base' onClick={e => handlerSimbol(e)} value={simbol.teta}>{simbol.teta}</button>
                     <button className='lg:bg-gray-100 lg:px-2 lg:py-1 lg:rounded-md lg:font-poppins lg:font-medium lg:text-base' onClick={e => handlerSimbol(e)} value={simbol.phi}>{simbol.phi}</button>
+                    <button className='lg:bg-gray-100 lg:px-2 lg:py-1 lg:rounded-md lg:font-poppins lg:font-medium lg:text-base' onClick={e => handlerSimbol(e)} value={simbol.derajat}>{simbol.derajat}</button>
                 </Dropdown.Item>                
             </Dropdown>
         </div>
