@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Dropdown } from 'flowbite-react'
 
-
 export default function AnswerSinus() {
 
     const resultJawaban = '4√6'
@@ -75,7 +74,6 @@ export default function AnswerSinus() {
                     <button className='lg:bg-gray-100 lg:px-2 lg:py-1 lg:rounded-md lg:font-poppins lg:font-medium lg:text-base' onClick={e => handlerSimbol(e)} value={simbol.phi}>{simbol.phi}</button>
                 </Dropdown.Item>                
             </Dropdown>
-
         </div>
         <div className='lg:w-full lg:h-auto lg:flex lg:flex-col lg:justify-center'>
             <div className='lg:flex lg:justify-center lg:w-10/12 lg:px-20'>
